@@ -3,3 +3,31 @@ body {
   height: 100%;
   margin: 0;
 }
+header h1 {
+  display: flex;
+  justify-content: center;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Adjust gap between links */
+}
+
+header nav a {
+  padding: 5px 10px;
+  color: blue;
+}
+#featured-property figcaption{
+ display: flex;
+ justify-content: center;
+}
+#featured-property p {
+  text-align: center;
+  margin: 10px auto;
+  max-width: 800px;
+}
+#details {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
